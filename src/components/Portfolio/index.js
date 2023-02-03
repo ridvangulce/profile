@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import Content from '../Content/Content'
+import movie from "./video.mp4"
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { getDocs, collection } from 'firebase/firestore'
@@ -64,6 +66,9 @@ const Portfolio = () => {
           />
         </h1>
         <div>{renderPortfolio(portfolio)}</div>
+        <div>
+          <Content/>
+        </div>
       </div>
       <Loader type="pacman" />
     </>
