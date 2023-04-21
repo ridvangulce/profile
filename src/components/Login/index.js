@@ -3,7 +3,7 @@ import { signInWithGoogle } from '../../firebase';
 const Login = () => {
     return (
         <div className="dashboard">
-            <button onClick={signInWithGoogle}>
+            <button >
                 Sign in with google
             </button>
         </div>

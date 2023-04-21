@@ -1,0 +1,20 @@
+{
+    "portfolio": [
+        {
+            "name":"Chat App",
+            "cover": ".../assets/portfolio/1/one.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind, Jest",
+            "video":"video.mov",
+            "id":0
+        },
+        {
+            "name":"Chat App",
+            "cover": ".../assets/portfolio/1/one.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind, Jest",
+            "video":"video-test.mov",
+            "id":1
+        }
+    ]
+}
