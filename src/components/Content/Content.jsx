@@ -1,7 +1,5 @@
 import React, { useEffect,useState } from 'react'
 import portfolioData from '../data/portfolio.json';
-import video from "../video/videos/video.mp4";
-import ReactPlayer from 'react-player'
 import { ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '../../firebase';
 const Content = () => {

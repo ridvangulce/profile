@@ -2,19 +2,29 @@
     "portfolio": [
         {
             "name":"Chat App",
-            "cover": ".../assets/portfolio/1/one.png",
+            "cover": "chat-app.png",
             "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "video":"video.mov",
+            "description": "React.JS , Firebase",
+            "video":"video.mp4",
             "id":0
         },
         {
             "name":"Chat App",
-            "cover": ".../assets/portfolio/1/one.png",
+            "cover": "chat-app.png",
             "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "video":"video-test.mov",
+            "description": "React.JS , Firebase",
+            "video":"video.mp4",
             "id":1
+
+        },
+        {
+            "name":"Chat App",
+            "cover": "chat-app.png",
+            "title": "GGWP",
+            "description": "React.JS , Firebase",
+            "video":"video.mp4",
+            "id":2
         }
+        
     ]
 }

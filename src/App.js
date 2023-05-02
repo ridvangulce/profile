@@ -10,9 +10,9 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Routes>
+      <Routes >
         <Route path="" element={<Layout />}>
-          <Route path ="resume" index element={<Home />} />
+          <Route path="resume" index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
@@ -20,7 +20,7 @@ function App() {
         </Route>
       </Routes>
     </>
-   
+
   )
 }
 
