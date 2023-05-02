@@ -27,5 +27,11 @@
 
         }
         
+    ],
+    "avatar":[
+        {
+            "avatar":"avatar2.jpg",
+            "id":0
+        }
     ]
 }

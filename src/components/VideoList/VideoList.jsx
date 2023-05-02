@@ -58,8 +58,8 @@ function VideoPlayer() {
   }
 
   const renderPortfolioItem = (item) => (
-    <div key={item.id} className="relative bg-slate-100 items-center justify-items-center">
-      <div className="bg-black rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer h-full items-center" onClick={() => handleVideoToggle(item.id)}>
+    <div key={item.id} className="relative bg-transparent items-center justify-items-center">
+      <div className="bg-black rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer items-center" onClick={() => handleVideoToggle(item.id)}>
         {coverUrls[item.id] ? (
           <img src={coverUrls[item.id]} alt={item.name} className="object-cover object-bottom " />
         ) : (

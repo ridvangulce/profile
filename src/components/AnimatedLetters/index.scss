@@ -5,13 +5,22 @@
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  min-width: 10px;
+  letter-spacing: 5px;
+  padding:0.5px;
+  min-width: 3px;
+  text-shadow: 3px 3px rgba(39, 206, 53, 0.266);
+
+
 }
 
 .text-animate-hover {
-  min-width: 10px;
   display: inline-block;
   animation-fill-mode: both;
+  letter-spacing: 5px;
+  padding:0.5px;
+  min-width: 3px;
+  text-shadow: 3px 3px rgba(39, 206, 53, 0.266);
+
 
   &:hover {
     animation: rubberBand 1s;

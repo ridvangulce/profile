@@ -4,7 +4,7 @@
 
 @layer base{
   body{
-    @apply bg-gradient-to-r from-black to-slate-600
+    @apply bg-gradient-to-r from-blue-600 to-black
   }
 }
 
