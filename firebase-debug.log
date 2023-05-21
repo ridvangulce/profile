@@ -1,0 +1,13 @@
+[debug] [2023-05-21T11:39:38.325Z] ----------------------------------------------------------------------
+[debug] [2023-05-21T11:39:38.327Z] Command:       /usr/local/bin/firebase /Users/ridvangulce/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hostingclear
+[debug] [2023-05-21T11:39:38.327Z] CLI Version:   12.0.0
+[debug] [2023-05-21T11:39:38.327Z] Platform:      darwin
+[debug] [2023-05-21T11:39:38.328Z] Node Version:  v16.16.0
+[debug] [2023-05-21T11:39:38.333Z] Time:          Sun May 21 2023 14:39:38 GMT+0300 (GMT+03:00)
+[debug] [2023-05-21T11:39:38.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-21T11:39:38.338Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-21T11:39:38.356Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-21T11:39:38.357Z] > authorizing via signed-in user (ridvangulce@gmail.com)
+[error] 
+[error] Error: hostingclear is not a supported feature; must be one of database, firestore, functions, hosting, hosting:github, storage, emulators, remoteconfig, extensions.

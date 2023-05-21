@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import Content from '../Content/Content'
 import VideoList from '../VideoList/VideoList'
-import movie from "./video.mp4"
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import json from "../data/portfolio.json"
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const data = [];
