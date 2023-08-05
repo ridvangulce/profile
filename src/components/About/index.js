@@ -25,13 +25,27 @@ const About = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-              idx={15}
-            />
+
+          <h1 className=' text-left grid'>
+            <div className='h-10'>
+
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['A', 'b', 'o', 'u', 't']}
+                idx={15}
+              />
+            </div>
+            <div className='ml-9'>
+
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['M', 'e']}
+                idx={15}
+              />
+            </div>
+
           </h1>
+
           <p>
             I've been developing software since November 2020 and have
             experience with React.js, Node.js, Flask API, MongoDB, Firebase primarily using it to develop websites.
