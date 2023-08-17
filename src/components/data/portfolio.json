@@ -34,8 +34,16 @@
             "link":"https://skynow360.vercel.app/",
             "id":3
 
-        }
-        
+        },
+        {
+            "name":"Linkstacks",
+            "cover": "linkstack-cover.png",
+            "description": "React.JS, Tailwind,Firebase",
+            "video":"linkstack-movie.mov",
+            "link":"https://linkstacks.web.app",
+            "id":4
+
+        }        
     ],
     "avatar":[
         {
