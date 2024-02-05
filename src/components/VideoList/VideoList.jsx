@@ -4,12 +4,18 @@ import { ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '../../firebase';
 import portfolioData from '../data/portfolio.json';
 import { AiFillCloseCircle } from "react-icons/ai"
+import { useMediaQuery } from 'react-responsive';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function VideoPlayer() {
+  const isMobile = useMediaQuery({ maxWidth: 767 }); // 767px ve altındaysa mobil olarak kabul et
   const [videoUrls, setVideoUrls] = useState({});
   const [coverUrls, setCoverUrls] = useState({});
   const [isVideoOpen, setIsVideoOpen] = useState({});
+  const slidesToShow = isMobile ? 1 : 3;
 
   useEffect(() => {
     Promise.all(portfolioData.portfolio.map((item) => {
@@ -60,10 +66,10 @@ function VideoPlayer() {
 
   const renderPortfolioItem = (item) => (
     <div key={item.id} className="relative bg-transparent items-center justify-items-center">
-      <div className="bg-black rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer items-center" onClick={() => handleVideoToggle(item.id)}>
+      <div className="bg-black rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer items-center" style={{ width: '400px', height: '500px' }} onClick={() => handleVideoToggle(item.id)}>
         {coverUrls[item.id] ? (
           <div>
-            <img src={coverUrls[item.id]} alt={item.name} className="object-cover object-bottom " />
+            <img src={coverUrls[item.id]} alt={item.name} className="object-cover object-bottom" style={{ width: '400px', height: '400px' }} />
           </div>
 
         ) : (
@@ -78,16 +84,16 @@ function VideoPlayer() {
       </div>
       <div >
         {item.link ? (
-          <div className='bg-transparent flex justify-center '>
-          <Link
-            className="bg-white p-3 rounded-lg justify-center text-black hover:text-blue-700 hover:underline hover:text-lg hover:bg-gray-200 duration-200"
-            target="_blank"
-            to={item.link}
-          >
-            {item.link}
-          </Link>
-        </div>
-        
+          <div className='bg-transparent flex justify-center'>
+            <Link
+              className="bg-white p-3 rounded-lg justify-center text-black hover:text-blue-700 hover:underline hover:text-lg hover:bg-gray-200 duration-200"
+              target="_blank"
+              to={item.link}
+            >
+              {item.link}
+            </Link>
+          </div>
+
 
         ) : null}
       </div>
@@ -110,13 +116,12 @@ function VideoPlayer() {
   );
 
   return (
-    <div className="mx-auto px-4 py-8 overflow-x-hidden h-full w-full">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-
+    <div className="md:mx-8 px-4 md:px-20 py-4 md:py-10  h-full w-full">
+      <Slider dots={true} infinite={true} speed={500} slidesToShow={slidesToShow} slidesToScroll={1}>
         {portfolioData.portfolio.map(renderPortfolioItem)}
-
-      </div>
+      </Slider>
     </div>
+
   );
 }
 

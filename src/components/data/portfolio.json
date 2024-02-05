@@ -3,7 +3,7 @@
         {
             "name":"Viport",
             "cover": "viport.png",
-            "description": "GSAP, PHP, MySQL, jQuery",
+            "description": "GSAP, PHP, MySQL, jQuery, Google Maps API",
             "video":"viport.mov",
             "link":"https://viporttransfer.com",
             "id":0
@@ -12,7 +12,7 @@
         {
             "name":"Linkstacks",
             "cover": "linkstack-cover.png",
-            "description": "React.JS, Tailwind,Firebase",
+            "description": "React.JS, Tailwind, Firebase, NodeJS",
             "video":"linkstack-movie.mov",
             "link":"https://linkstacks.web.app",
             "id":1
@@ -21,7 +21,7 @@
         {
             "name":"Sky Now 360",
             "cover": "skynow360-screenshot.png",
-            "description": "React.JS, Tailwind, OpenWeahterMap API",
+            "description": "React.JS, Tailwind, OpenWeahterMap API, NodeJS",
             "video":"skynow360-screen-recording.mov",
             "link":"https://skynow360.vercel.app/",
             "id":2
@@ -51,7 +51,7 @@
             "name":"Chat App",
             "cover": "chat-app.png",
             "title": "GGWP",
-            "description": "React.JS , Firebase",
+            "description": "React.JS , Firebase, NodeJS",
             "video":"video.mp4",
             "id":5
         }
