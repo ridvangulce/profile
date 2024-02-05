@@ -30,7 +30,7 @@ const Sidebar = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          to="/resume"
+          to="/profile"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
