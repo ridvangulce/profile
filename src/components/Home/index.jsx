@@ -32,18 +32,31 @@ const Home = () => {
 
   const nameArray = ['', '', 'R', 'i', 'd', 'v', 'a', 'n']
   const jobArray = [
-    'g',
+    'G',
     'a',
     'm',
     'e',
+    ' ',
+    ' ',
     '&',
     ' ',
-    'w',
-    'e',
-    'b',
+    ' ',
+    'F',
+    'u',
+    'l',
+    'l',
+    ' ',
+    '-',
+    ' ',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
     '',
     '',
-    'd',
+    '',
+    'D',
     'e',
     'v',
     'e',
@@ -62,7 +75,7 @@ const Home = () => {
 
   const renderPortfolioItem = (item) => (
     <div key={item.id} >
-      <div className="bg-gradient-to-b from-white to-red-500 rounded-full ">
+      <div className="bg-gradient-to-b from-white to-red-500 rounded-full bg-black ">
         <img src={imageUrls[item.id]} alt={item.name} className="object-cover object-bottom rounded-full" />
       </div>
     </div>
@@ -71,29 +84,30 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-        <div className="text-zone">
+        <div className="text-zone text-xs  md:h-auto md:mx-10 md:text-sm  md:w-60vw">-
           <h1>
-            <span className={`${letterClass} text-4xl  md:text-5xl`}>H</span>
-            <span className={`${letterClass} _12 text-3xl md:text-4xl `}>i</span>
-            <br />
-            <span className={`${letterClass} _13 text-4xl md:text-5xl`}>I</span>
-            <span className={`${letterClass} _13 text-4xl md:text-4xl`}>'</span>
-            <span className={`${letterClass} _14 text-3xl md:text-4xl`}>m</span>
+            <span className={`${letterClass} text-lg  md:text-5xl`}>H</span>
+            <span className={`${letterClass} _12 text-lg md:text-4xl `}>i</span>
+            <span className={`${letterClass} _12 text-lg md:text-4xl `}>,</span>
+            <span className={`${letterClass} _13 text-lg md:text-5xl`}>I</span>
+            <span className={`${letterClass} _13 text-lg md:text-4xl`}>'</span>
+            <span className={`${letterClass} _14 text-lg md:text-4xl`}>m</span>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={15}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={12}
-            />
+            
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={jobArray}
+                idx={12}
+              />
 
           </h1>
 
-          <h2 className=' text-yellow-500'>Full-Stack Developer / Game Developer</h2>
+          {/* <h2 className=' text-yellow-500'>Full-Stack Developer / Game Developer</h2> */}
         </div>
 
         <div className="bg-gradient-to-b from-white to-red-500 rounded-full  md:w-96 md:h-96  bg-black md:float-right">
