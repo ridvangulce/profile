@@ -47,26 +47,25 @@ const About = () => {
           </h1>
 
           <p>
-            I've been developing software since November 2020 and have
-            experience with React.js, Node.js, Flask API, MongoDB, Firebase primarily using it to develop websites.
-            Since June 2021, I have been developing mobile games using the Unity
-            Engine.
+            As a driven software developer, I possess a diverse skill set encompassing both front-end and back-end web development, complemented by a strong background in crafting captivating mobile and PC games since 2021. With an insatiable thirst for knowledge and personal growth, I thrive on tackling new challenges within the ever-evolving landscape of technology. My true passion lies in coding inventive solutions that enhance user interactions and experiences.
+
+            My journey in software development commenced in November 2020, and since then, I've honed my expertise with technologies like React.js, Node.js, PHP, Flask API, MySQL, MongoDB, and Firebase, primarily focusing on website development.
           </p>
           <br />
           <p>
-            Additionally, I have developed 2 games that were published on the
-            market.
+            Transitioning into the realm of mobile game development using the Unity Engine in June 2021 has further enriched my skill set.
+
+            Notably, I've proudly developed and published two games in the market, showcasing my dedication and proficiency in game development.
+
           </p>
           <br />
           <p>
-            I am skilled in using OOP, design patterns and ScriptableObjects to
-            write reusable and readable code. I am also procient in using tools
-            such as Git, SourceTree, VS Code and Rider.
+            Proficient in Object-Oriented Programming (OOP), design patterns, and leveraging ScriptableObjects, I specialize in crafting code that is both reusable and easy to understand. Additionally, I am adept at utilizing essential tools such as Git, SourceTree, VS Code, and Rider to streamline development processes.
+
+            My passion for web development is unwavering, and I am deeply committed to pushing the boundaries of what's possible in this exciting field.
           </p>
           <br />
-          <p align="LEFT">
-            I am particularly interested in web development.
-          </p>
+
         </div>
 
         <div className="stage-cube-cont">
