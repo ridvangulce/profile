@@ -86,12 +86,12 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone text-xs  md:h-auto md:mx-10 md:text-sm  md:w-60vw">-
           <h1>
-            <span className={`${letterClass} text-lg  md:text-5xl`}>H</span>
-            <span className={`${letterClass} _12 text-lg md:text-4xl `}>i</span>
-            <span className={`${letterClass} _12 text-lg md:text-4xl `}>,</span>
-            <span className={`${letterClass} _13 text-lg md:text-5xl`}>I</span>
-            <span className={`${letterClass} _13 text-lg md:text-4xl`}>'</span>
-            <span className={`${letterClass} _14 text-lg md:text-4xl`}>m</span>
+            <span className={`${letterClass} text-lg  md:text-3xl`}>H</span>
+            <span className={`${letterClass} _12 text-lg md:text-3xl `}>i</span>
+            <span className={`${letterClass} _12 text-lg md:text-3xl `}>,</span>
+            <span className={`${letterClass} _13 text-lg md:text-3xl`}>I</span>
+            <span className={`${letterClass} _13 text-lg md:text-3xl`}>'</span>
+            <span className={`${letterClass} _14 text-lg md:text-3xl`}>m</span>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -107,7 +107,7 @@ const Home = () => {
 
           </h1>
 
-          {/* <h2 className=' text-yellow-500'>Full-Stack Developer / Game Developer</h2> */}
+          <h2 className=' text-yellow-500'>ReactJS | NodeJS | Flask | MongoDB | Firebase | MySQL | Unity </h2>
         </div>
 
         <div className="bg-gradient-to-b from-white to-red-500 rounded-full  md:w-96 md:h-96  bg-black md:float-right">

@@ -26,7 +26,7 @@ const About = () => {
       <div className="container about-page">
         <div className="text-zone">
 
-          <h1 className=' text-left grid'>
+          <h1 className='flex space-x-3'>
             <div className='h-10'>
 
               <AnimatedLetters
