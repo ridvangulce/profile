@@ -786,7 +786,7 @@ const Edit = () => {
               </div>
               <hr className="my-10"></hr>
               <div className="flex">
-                <label className="w-1/5 text-lg opacity-50">Frameworks</label>
+                <label className="w-1/5 text-lg opacity-50">Server Side</label>
                 <div className="w-4/5 ml-10 flex flex-col">
                   {data.resume.frameworks.map((framework, index) => (
                     <div key={index} className="flex">

@@ -1,7 +1,9 @@
 import React from "react";
 
 const ProjectResume = ({ dates, type, position, bullets }) => {
-  const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split(","));
+  const [bulletsLocal, setBulletsLocal] = React.useState(
+    typeof bullets === 'string' ? bullets.split(",") : []
+  );
 
   return (
     <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">

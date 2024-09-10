@@ -1,4 +1,4 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+![thumbnail](https://firebasestorage.googleapis.com/v0/b/resume-react-a28a3.appspot.com/o/images%2FScreenshot%202024-09-10%20at%2018.17.05.png?alt=media&token=1d7d8b21-31e7-4626-abc4-55aa950daebe)
 
 
 
