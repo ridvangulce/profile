@@ -17,7 +17,7 @@
 
 - Header
 - Work
-- Services
+- Expertise
 - About
 - Contact
 - Markdown Blog
