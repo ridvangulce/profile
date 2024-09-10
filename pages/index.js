@@ -53,6 +53,7 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
+        <link rel="icon" href="/images/download-modified.png" />
       </Head>
 
       <div className="gradient-circle"></div>
