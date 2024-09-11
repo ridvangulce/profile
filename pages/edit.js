@@ -154,11 +154,7 @@ const Edit = () => {
         <div className={`${theme === "dark" ? "bg-transparent" : "bg-white"}`}>
           <div className="flex items-center justify-between">
             <h1 className="text-4xl">Dashboard</h1>
-            <div className="flex items-center">
-              <Button onClick={saveData} type="primary">
-                Save
-              </Button>
-            </div>
+           
           </div>
 
           <div className="flex items-center">
@@ -423,9 +419,12 @@ const Edit = () => {
               ))}
             </div>
 
-            <div className="my-10">
+            <div className="my-10 flex justify-between">
               <Button onClick={addProject} type="primary">
                 Add Project +
+              </Button>
+              <Button onClick={saveData} type="primary">
+                Save
               </Button>
             </div>
           </>
